@@ -82,7 +82,7 @@ int main(){
 
     // Text rendering (FPS)
     text = new TextRenderer(WIDTH, HEIGHT);
-    text->Load("/System/Library/Fonts/Avenir.ttc", 24);
+    text->Load("../fonts/arial/ARIAL.TTF", 24);
 
     // Create orb
     glm::vec2 orbStartPos(0.0f, -0.8f);
